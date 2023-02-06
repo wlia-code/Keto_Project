@@ -61,9 +61,14 @@ header {
 
 }
 #join_btn{
-    background-color: #4f964b;
-    color: white;
+    background-color: #fff;
+    color: #4f964b;
     font-size: 1em;
     border-radius: 5px;
     padding: 10px;
+}
+#join_btn:hover{
+
+    background-color: #4f964b;
+    color: white;
 }
