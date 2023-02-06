@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+header {
+    padding: 10px 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(3, 3, 3, 0.619);
+    position: fixed;
+    z-index: 3;
+}
+
+.head_logo {
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.head_logo:hover {
+    transform: scale(1.2);
+}
+
+.head_logo h1 {
+    color: #4f964b;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Roboto', serif;
+}
+
+.head_links li {
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.head_links li a {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', serif;
+    color: #4f964b;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+}
+
+.head_links li a:hover {
+    color: #fff;
+    background-color: #4f964b;
+
+}
+#join_btn{
+    background-color: #4f964b;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 10px;
+}
