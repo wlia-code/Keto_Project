@@ -9,7 +9,7 @@
 body {
     font-size: 20px;
 }
-
+/* header and nvabar STRAT */
 header {
     padding: 10px 10%;
     width: 100%;
@@ -71,4 +71,42 @@ header {
 
     background-color: #4f964b;
     color: white;
+}
+/* header and nvabar END */
+
+/* Hero image and text start */
+.main_page{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+.main_image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./image/keto_main1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    height: 600px;
+    width: 100%;  
+}
+.main_text{
+    height: 25%;
+    font-size: 1.6em;
+    color: #091408;
+    background-color: aliceblue;
+    width: 40%;
+    bottom: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-left: 2%;
+    position: absolute;
+    box-shadow: 0 5px 25px rgba(3, 3, 3, 0.619);
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+span{
+    color: #4f964b;
+    font-weight: bold;
 }
