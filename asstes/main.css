@@ -110,3 +110,142 @@ span{
     color: #4f964b;
     font-weight: bold;
 }
+iframe {
+    border: none;
+    width: 660px;
+    height: 415px;
+}
+
+span {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.title_text {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b394e;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(3, 3, 3, 0.619);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    width: 250px;
+    transition: 0.7s;
+
+
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.icon {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #4CAF50;
+}
+
+.info {
+    text-align: center;
+    cursor: default;
+}
+
+.info h3 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+#intro_video {
+    width: 100%;
+    justify-content: center;
+}
+
+.video_title {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3b394e;
+}
+
+.beg_video {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+footer {
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(3, 3, 3, 0.619);
+    border-radius: 5px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    color: #3b394e;
+    padding-bottom: 2%;
+}
+
+.social_links li {
+    display: inline;
+    list-style: none;
+    margin: 7%;
+}
+
+.social_links li a {
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.social_links i {
+    font-size: 200%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    transition: 0.7s;
+}
+
+.social_links i:hover {
+    transform: scale(1.5);
+}
+
+#insta {
+    color: #4CAF50;
+}
+
+#tube {
+    color: #b02323;
+}
+
+#face {
+    color: #27429a;
+}
+
+#insta {
+    color: #901e8c;
+}
+
+#twitt {
+    color: #3a6cf4;
+}
