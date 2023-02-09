@@ -72,7 +72,6 @@ header {
     background-color: #4f964b;
     color: white;
 }
-/* header and nvabar END */
 
 /* Hero image and text start */
 .main_page{
@@ -163,6 +162,7 @@ span {
 .info {
     text-align: center;
     cursor: default;
+    
 }
 
 .info h3 {
@@ -171,9 +171,13 @@ span {
     font-weight: 700;
     margin: 10px;
     letter-spacing: 2px;
-}
+    text-transform: uppercase;
 
-#intro_video {
+}
+.info p {
+    text-transform: capitalize;
+}
+.intro_video {
     width: 100%;
     justify-content: center;
 }
@@ -198,16 +202,24 @@ footer {
     background-color: #fff;
     box-shadow: 0 5px 25px rgba(3, 3, 3, 0.619);
     border-radius: 5px;
+    overflow: hidden;
 }
 
-footer h2 {
+footer h3 {
     text-align: center;
     font-size: 2.1rem;
     text-transform: uppercase;
     color: #3b394e;
     padding-bottom: 2%;
 }
+footer p {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #3b394e;
+    text-align: left;
+    margin-bottom: 2%;
 
+}
 .social_links li {
     display: inline;
     list-style: none;
@@ -220,7 +232,7 @@ footer h2 {
 }
 
 .social_links i {
-    font-size: 200%;
+    font-size: 175%;
     margin-left: 6%;
     margin-bottom: 2%;
     transition: 0.7s;
@@ -248,4 +260,126 @@ footer h2 {
 
 #twitt {
     color: #3a6cf4;
+}
+@media screen and (max-width: 400px) {
+    .main_text {
+        width: 70%;
+        font-size: 0.8em;
+    }
+
+    .video_title {
+        font-size: 1.1em;
+    }
+
+    .beg_video {
+        width: 50%;
+        padding-left: 100px;
+    }
+
+    .social_links i {
+        font-size: 105%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_text {
+        width: 70%;
+        font-size: 1em;
+    }
+
+    .video_title {
+        font-size: 1.1em;
+    }
+
+    .beg_video {
+        width: 50%;
+        padding-left: 100px;
+    }
+
+    .social_links i {
+        font-size: 105%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main_text {
+        width: 50%;
+        font-size: 0.8em;
+    }
+
+    .video_title {
+        font-size: 0.8em;
+    }
+    footer{
+        height: 100px;
+    }
+
+    footer h3{
+        font-size: 1em;
+    }
+
+    .social_links i {
+        font-size: 120%;
+        margin: 1%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    .card{
+        height: 150px;
+    }
+    .info h3 ,p , .icon{
+        font-size: 0.7em;
+    }
+    .mian_page , .main_image{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main_text {
+        width: 70%;
+        font-size: 1.1em;
+    }
+
+    .video_title {
+        font-size: 0.8em;
+    }
+    footer{
+        height: 100px;
+    }
+
+    footer h3{
+        font-size: 1em;
+    }
+
+    .social_links i {
+        font-size: 120%;
+        margin: 1%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    .card{
+        height: 150px;
+    }
+    .info h3 ,p , .icon{
+        font-size: 0.7em;
+    }
+    .mian_page , .main_image{
+        height: 500px;
+    }
 }
