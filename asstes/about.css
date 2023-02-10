@@ -73,10 +73,11 @@ header {
 
 .about_text {
     padding: 25px 10%;
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 700;
     color: #3b394e;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
 }
 
 .content {
@@ -99,7 +100,7 @@ header {
 }
 
 .team_card:hover {
-    transform: scale(.9)
+    transform: scale(0.9)
 }
 
 .team_info {
@@ -216,7 +217,12 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-    
+    .about_text{
+        font-size: 0.8em;
+    }
+    .content{
+        padding-bottom: 100px;
+    }
     footer{
         height: 100px;
     }
