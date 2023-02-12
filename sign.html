@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asstes/sign.css">
+    <title>KETO-DIET</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="head_logo" ><h1>keto diet</h1></a>
+        <nav>
+            <ul class="head_links">
+                <li><a href="index.html" aria-label="go to  home page">Home</a></li>
+                <li><a href="faq.html" aria-label="go to faq page" >faq</a></li>
+                <li><a href="about.html" aria-label="Go to about page" >about</a></li>
+                <li><a id="join_btn" href="sign.html" aria-label="Fill in the form to git plan about keto">join us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Get your <span>Plan</span>  ready <span>today</span></legend>
+
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" class="input_info" name="user_name" required>
+            
+            <label for="weight">Your Weight(KG):</label>
+            <input type="number" id="weight" class="input_info" name="your_weight" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input_info" name="user_email" required>
+
+            <label for="age" >Age:</label>
+            <select id="age" name="age" class="input_info" required>
+                <option value="minimum">Min age is 20</option>
+                <option value="minimum18">20-29</option>
+                <option value="30y">30-39</option>
+                <option value="40y">40-49</option>
+                <option value="50y">50-59</option>
+                <option value="60+">60+</option>
+            </select>
+
+            <label for="message">additional information:</label>
+            <textarea id="message" class="input_info" name="user_message" ></textarea>
+
+            <input type="submit" class="submit_btn" value="Submit">
+        </fieldset>    
+    </form>
+
+    <footer>
+        <div>
+            <h3>find <span>us</span> on</h3>
+        </div>
+        
+        <ul class="social_links">
+            <li>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Vist our youtube chanel (open in new tap)" ><i id="insta" class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" aria-label="Vist our youtube chanel (open in new tap)"><i id="tube" class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com" target="_blank" aria-label="Vist our facebook page (open in new tap)" ><i id="face" class="fa-brands fa-facebook"></i></a></li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Vist our twitter page (open in new tap)"><i id="twitt" class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+        <p>© 2023 Keto-Diet</p>
+    </footer>    
+    <script src="https://kit.fontawesome.com/bc3084502c.js" crossorigin="anonymous"></script>
+</body>
+</html>
