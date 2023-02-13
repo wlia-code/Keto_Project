@@ -142,14 +142,7 @@ footer h3 {
     color: #3b394e;
     padding-bottom: 2%;
 }
-footer p {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    color: #3b394e;
-    text-align: left;
-    margin-bottom: 2%;
 
-}
 .social_links li {
     display: inline;
     list-style: none;

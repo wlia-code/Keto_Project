@@ -82,9 +82,9 @@ header {
     
 }
 .main_image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./image/keto_main1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./image/keto_main2.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     height: 600px;
@@ -212,14 +212,7 @@ footer h3 {
     color: #3b394e;
     padding-bottom: 2%;
 }
-footer p {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    color: #3b394e;
-    text-align: left;
-    margin-bottom: 2%;
 
-}
 .social_links li {
     display: inline;
     list-style: none;
@@ -261,6 +254,8 @@ footer p {
 #twitt {
     color: #3a6cf4;
 }
+
+
 @media screen and (max-width: 400px) {
     .main_text {
         width: 70%;
@@ -312,6 +307,9 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
+    #join_btn{
+        font-size: 0.8em;
+    }
     .main_text {
         width: 50%;
         font-size: 0.8em;
@@ -348,9 +346,13 @@ footer p {
     }
 }
 @media screen and (max-width: 1200px) {
+    .head_links li a{
+        font-size: 0.8em;
+    }
+
     .main_text {
         width: 70%;
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 
     .video_title {
@@ -379,7 +381,10 @@ footer p {
     .info h3 ,p , .icon{
         font-size: 0.7em;
     }
-    .mian_page , .main_image{
+    .mian_page{
         height: 500px;
+    }
+    .main_image{
+        height: 400px;
     }
 }
