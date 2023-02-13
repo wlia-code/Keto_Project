@@ -97,10 +97,10 @@ header {
 
 .main_text {
     height: 25%;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #091408;
     background-color: aliceblue;
-    width: 40%;
+    width: 60%;
     bottom: 200px;
     padding-top: 40px;
     padding-left: 40px;
@@ -364,14 +364,14 @@ footer h3 {
     }
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1280px) {
     .head_links li a {
         font-size: 0.8em;
     }
 
     .main_text {
         width: 70%;
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 
     .video_title {
@@ -413,4 +413,4 @@ footer h3 {
     .main_image {
         height: 400px;
     }
-}
+} */
