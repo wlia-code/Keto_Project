@@ -62,7 +62,7 @@ header {
 
 }
 
-#join_btn {
+.join_btn {
     background-color: #fff;
     color: #4f964b;
     font-size: 1em;
@@ -70,7 +70,7 @@ header {
     padding: 10px;
 }
 
-#join_btn:hover {
+.join_btn:hover {
 
     background-color: #4f964b;
     color: white;
@@ -245,23 +245,19 @@ footer h3 {
     transform: scale(1.5);
 }
 
-#insta {
-    color: #4CAF50;
-}
-
-#tube {
+.fa-youtube {
     color: #b02323;
 }
 
-#face {
+.fa-facebook {
     color: #27429a;
 }
 
-#insta {
+.fa-instagram {
     color: #901e8c;
 }
 
-#twitt {
+.fa-twitter {
     color: #3a6cf4;
 }
 
@@ -317,7 +313,13 @@ footer h3 {
 }
 
 @media screen and (max-width: 900px) {
-    #join_btn {
+
+    .main_image {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .join_btn {
         font-size: 0.8em;
     }
 
@@ -363,54 +365,3 @@ footer h3 {
         height: 400px;
     }
 }
-
-/* @media screen and (max-width: 1280px) {
-    .head_links li a {
-        font-size: 0.8em;
-    }
-
-    .main_text {
-        width: 70%;
-        font-size: 1.2em;
-    }
-
-    .video_title {
-        font-size: 0.8em;
-    }
-
-    footer {
-        height: 100px;
-    }
-
-    footer h3 {
-        font-size: 1em;
-    }
-
-    .social_links i {
-        font-size: 120%;
-        margin: 1%;
-
-    }
-
-    h1 {
-        font-size: 25px;
-    }
-
-    .card {
-        height: 150px;
-    }
-
-    .info h3,
-    p,
-    .icon {
-        font-size: 0.7em;
-    }
-
-    .mian_page {
-        height: 500px;
-    }
-
-    .main_image {
-        height: 400px;
-    }
-} */

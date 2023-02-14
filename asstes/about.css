@@ -9,6 +9,7 @@
 body {
     font-size: 20px;
 }
+
 /* header and nvabar STRAT */
 header {
     padding: 10px 10%;
@@ -58,14 +59,16 @@ header {
     background-color: #4f964b;
 
 }
-#join_btn{
+
+.join_btn {
     background-color: #fff;
     color: #4f964b;
     font-size: 1em;
     border-radius: 5px;
     padding: 10px;
 }
-#join_btn:hover{
+
+.join_btn:hover {
 
     background-color: #4f964b;
     color: white;
@@ -121,8 +124,8 @@ p {
     letter-spacing: 1px;
     font-size: 1rem;
 }
- 
- span{
+
+span {
     font-weight: bold;
     color: #4CAF50;
 }
@@ -165,25 +168,22 @@ footer h3 {
     transform: scale(1.5);
 }
 
-#insta {
-    color: #4CAF50;
-}
-
-#tube {
+.fa-youtube {
     color: #b02323;
 }
 
-#face {
+.fa-facebook {
     color: #27429a;
 }
 
-#insta {
+.fa-instagram {
     color: #901e8c;
 }
 
-#twitt {
+.fa-twitter {
     color: #3a6cf4;
 }
+
 @media screen and (max-width: 400px) {
 
     .social_links i {
@@ -210,17 +210,19 @@ footer h3 {
 }
 
 @media screen and (max-width: 900px) {
-    .about_text{
+    .about_text {
         font-size: 0.8em;
     }
-    .content{
+
+    .content {
         padding-bottom: 100px;
     }
-    footer{
+
+    footer {
         height: 100px;
     }
 
-    footer h3{
+    footer h3 {
         font-size: 1em;
     }
 
@@ -234,14 +236,15 @@ footer h3 {
         font-size: 25px;
     }
 }
+
 @media screen and (max-width: 1200px) {
 
-    
-    footer{
+
+    footer {
         height: 100px;
     }
 
-    footer h3{
+    footer h3 {
         font-size: 1em;
     }
 
@@ -254,5 +257,5 @@ footer h3 {
     h1 {
         font-size: 25px;
     }
-    
+
 }
