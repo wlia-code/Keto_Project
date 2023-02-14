@@ -263,6 +263,13 @@ footer h3 {
 
 
 @media screen and (max-width: 400px) {
+
+    .main_image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 250px;
+    }
+
     .main_text {
         width: 70%;
         font-size: 0.8em;
