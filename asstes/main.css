@@ -86,13 +86,14 @@ header {
 }
 
 .main_image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/keto_main2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/keto_.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     height: 600px;
     width: 100%;
+
 }
 
 .main_text {
@@ -264,11 +265,6 @@ footer h3 {
 
 @media screen and (max-width: 400px) {
 
-    .main_image {
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 250px;
-    }
 
     .main_text {
         width: 70%;
@@ -295,6 +291,10 @@ footer h3 {
 }
 
 @media screen and (max-width: 600px) {
+    .main_image{
+        background-attachment: unset;
+    }
+
     .main_text {
         width: 70%;
         font-size: 1em;
@@ -320,11 +320,7 @@ footer h3 {
 }
 
 @media screen and (max-width: 900px) {
-
-    .main_image {
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+ 
 
     .join_btn {
         font-size: 0.8em;
@@ -369,6 +365,6 @@ footer h3 {
 
     .mian_page,
     .main_image {
-        height: 400px;
+        height: 500px;
     }
 }
