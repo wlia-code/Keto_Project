@@ -22,11 +22,11 @@ Sign Up: Takes the user to a page where they can fill a form  to receive a tailo
 - __The landing page image__
 
   - The website's landing page showcases a captivating image with overlaid text that highlights the most significant aspect of the ketogenic diet
-![Main_image](./readme_media/Namnlos13.png)
+![Main_image](./readme_media/namnlos13.png)
 - __Ketogenic In particular__
 
   - The landing page's captivating animation serves as an introduction to the world of keto, capturing users' attention and sparking their curiosity.
-![Main_image](./readme_media/Namnlos14.png)
+![Main_image](./readme_media/namnlos14.png)
 
 - __intro video__
 
@@ -36,4 +36,4 @@ Sign Up: Takes the user to a page where they can fill a form  to receive a tailo
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites for Keto diet. The links will open to a new tab to allow easy navigation for the user.
-![Main_image](./readme_media/Namnlos15.png)
+![Main_image](./readme_media/namnlos16.png)
