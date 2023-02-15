@@ -9,7 +9,7 @@
         content="The fill-form on the keto website is a convenient and personalized way to receive a tailored meal plan based on your individual dietary needs and preferences">
     <meta name="keywords" content="Ketogenic, Diet, Low-Carb, High-Fat, Health, Wellness.">
     <link rel="stylesheet" href="./asstes/sign.css">
-    <title>KETO-DIET</title>
+    <title>KETO-DIET SIGN</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
             </ul>
         </nav>
     </header>
-    <form>
+    <form action="aftersign.html" method="">
         <fieldset>
             <legend>Get your <span>Plan</span> ready <span>today</span></legend>
 
@@ -35,13 +35,13 @@
             <input type="text" id="fname" class="input_info" name="user_name" required>
 
             <label for="weight">Your Weight(KG):</label>
-            <input type="number" id="weight" class="input_info" name="your_weight" required>
+            <input type="number" id="weight" class="input_info" name="your_weight" min="20" max="360" required>
 
             <label for="email">Email:</label>
             <input type="email" id="email" class="input_info" name="user_email" required>
 
             <label for="age">Your Age:</label>
-            <input type="number" id="age" class="input_info" name="your_age" required>
+            <input type="number" id="age" class="input_info" name="your_age" min="20" max="99" required>
 
             <label for="message">additional information:</label>
             <textarea id="message" class="input_info" name="user_message"></textarea>
@@ -57,20 +57,20 @@
 
         <ul class="social_links">
             <li>
-                <a href="https://www.instagram.com" target="_blank"
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
                     aria-label="Vist our instagram chanel (open in new tap)"><i id="insta"
                         class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com" target="_blank"
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
                     aria-label="Vist our youtube chanel (open in new tap)"><i id="tube"
                         class="fa-brands fa-youtube"></i></a>
             </li>
-            <li><a href="https://www.facebook.com" target="_blank"
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Vist our facebook page (open in new tap)"><i id="face"
                         class="fa-brands fa-facebook"></i></a></li>
             <li>
-                <a href="https://www.twitter.com" target="_blank"
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
                     aria-label="Vist our twitter page (open in new tap)"><i id="twitt"
                         class="fa-brands fa-twitter"></i></a>
             </li>
