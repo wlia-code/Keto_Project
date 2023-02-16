@@ -30,10 +30,22 @@ Sign Up: Takes the user to a page where they can fill a form  to receive a tailo
 
 - __intro video__
 
-  - this content a video for  very beginners intro about ketogenic diet
+  - this content a video intro about beginners ketogenic diet
 ![Main_image](./readme_media/Namnlos15.png)
 
 - __The Footer__
 
-  - The footer section includes links to the relevant social media sites for Keto diet. The links will open to a new tab to allow easy navigation for the user.
+  - Our footer section includes links to our social media sites for Keto diet, which are designed to provide additional resources and support for our readers. The links are easily accessible and will open in a new tab, allowing for seamless navigation for the user. We're active on a variety of social media platforms, so be sure to follow us for updates, tips, and inspiration to help you achieve your health and wellness goals!
 ![Main_image](./readme_media/namnlos16.png)
+- __FAQ Page__
+
+  - A FAQ section with answers to 10 common questions about the ketogenic diet
+![Main_image](./readme_media/namnlos17.png)
+- __About and our team__
+
+  - Our About page is where you can learn more about our content team and the mission and values that drive our work. You'll find a team photo and bios for each team member,  We believe in creating high-quality, informative content that helps our readers make informed decisions about their health and well-being. Check out our About page to learn more about who we are and what we do!
+![Main_image](./readme_media/namnlos18.png)
+- __Sign page__
+
+  - A sign-up form page where visitors can receive a customized plan for starting a ketogenic diet
+![Main_image](./readme_media/namnlos19.png)
