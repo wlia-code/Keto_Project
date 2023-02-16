@@ -44,8 +44,8 @@ Sign Up: Takes the user to a page where they can fill a form  to receive a tailo
 - __About and our team__
 
   - Our About page is where you can learn more about our content team and the mission and values that drive our work. You'll find a team photo and bios for each team member,  We believe in creating high-quality, informative content that helps our readers make informed decisions about their health and well-being. Check out our About page to learn more about who we are and what we do!
-![Main_image](./readme_media/namnlos18.png)
+![Main_image](./readme_media/Namnlos18.png)
 - __Sign page__
 
   - A sign-up form page where visitors can receive a customized plan for starting a ketogenic diet
-![Main_image](./readme_media/namnlos19.png)
+![Main_image](./readme_media/Namnlos19.png)
